@@ -11,7 +11,7 @@ You must add the repository to `composer.json`:
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/wcvendors/wcv-wp-phpcs.git"
+            "url": "https://github.com/wcvendors/wc-vendors-phpcs.git"
         }
     ]
 }
@@ -20,7 +20,7 @@ You must add the repository to `composer.json`:
 Install the library via Composer:
 
 ```bash
-$ composer require --dev wcvendors/wcv-wp-phpcs:dev-main
+$ composer require --dev wcvendors/wc-vendors-phpcs:dev-main
 ```
 
 ## Usage
