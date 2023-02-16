@@ -1,5 +1,5 @@
 {
-    "name": "wc-vendors/wp-phpcs",
+    "name": "wc-vendors/wc-vendors-phpcs",
     "type": "phpcodesniffer-standard",
     "version": "dev-master",
     "license": "MIT",
