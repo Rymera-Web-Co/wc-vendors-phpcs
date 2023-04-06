@@ -98,6 +98,12 @@
         <type>warning</type>
     </rule>
 
+    <!-- Make sure we always exit after a redirect -->
+    <rule ref="WordPressVIPMinimum.Security.ExitAfterRedirect" />
+
+    <!-- Make sure that the proper escaping functions are being used -->
+    <rule ref="WordPressVIPMinimum.Security.ProperEscapingFunction" />
+
     <rule ref="WordPress">
         <exclude name="Generic.WhiteSpace.DisallowSpaceIndent" />
         <exclude name="WordPress.Files.FileName.InvalidClassFileName" />
