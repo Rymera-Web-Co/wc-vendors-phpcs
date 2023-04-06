@@ -28,8 +28,8 @@
     <config name="testVersion" value="8.1-" />  
 
     <!-- Check for PHP cross-version compatibility. -->
-	<config name="testVersion" value="8.1-"/>
 	<rule ref="PHPCompatibilityWP"/>
+    <config name="testVersion" value="8.0-"/>
 
     <!-- Don't worry about files that don't contain any code -->
     <rule ref="Internal.NoCodeFound">
@@ -85,8 +85,8 @@
         <exclude name="WordPress.Security.NonceVerification.Missing" />
     </rule>
 
-    <!-- Sets the minimum supported WP version to 4.7, which is over a year old. -->
-    <config name="minimum_supported_wp_version" value="4.7" />
+    <!-- Sets the minimum supported WP version to 6.0 -->
+    <config name="minimum_supported_wp_version" value="6.0" />
 
     <!-- Make missing translator comment a warning. -->
     <rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
@@ -135,9 +135,4 @@
         </properties>
     </rule>
 
-    <!-- Loads the PHP Compatibility ruleset. -->
-    <rule ref="PHPCompatibilityWP" />
-
-    <!-- PHP version check. -->
-    <config name="testVersion" value="7.3-" />
 </ruleset>
