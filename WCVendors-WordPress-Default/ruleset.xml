@@ -99,7 +99,6 @@
     </rule>
 
     <rule ref="WordPress">
-        <exclude name="Generic.WhiteSpace.DisallowSpaceIndent" />
         <exclude name="WordPress.Files.FileName.InvalidClassFileName" />
         <exclude name="WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBetweenStructureColon" />
         <exclude name="WordPress.PHP.YodaConditions.NotYoda" />
@@ -113,7 +112,7 @@
         </properties>
     </rule>
 
-    <rule ref="Generic.WhiteSpace.DisallowTabIndent" />
+    
     <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
     <rule ref="Generic.ControlStructures.DisallowYodaConditions" />
 
